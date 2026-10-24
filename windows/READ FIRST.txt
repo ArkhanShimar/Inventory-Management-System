@@ -1,0 +1,56 @@
+CEYLON PURE HOMECARE - WINDOWS INSTALLATION
+
+For 64-bit Windows 10/11 PCs. Recommended: Windows 11.
+
+1. Copy this complete ZIP to the factory PC.
+2. Right-click the ZIP and choose Extract All.
+3. Open the extracted folder and double-click Install.cmd.
+4. Installation creates a desktop and Start-menu shortcut and opens the system.
+5. Create your own 6-to-12-digit PIN. Keep it safe.
+6. In Settings, enter the factory name, address and phone.
+7. Add the real products and shops, or use Import CSV and its templates.
+
+DAILY USE
+Install.cmd is the only setup file you need to open. It automatically installs
+a new system or updates an existing installation. Close unsaved billing forms
+before updating. Existing records, PIN, photographs and settings are preserved.
+A database safety copy and previous application files are kept before updates.
+Keep the Application and Setup folders beside Install.cmd.
+
+Double-click the Ceylon Pure Homecare desktop icon. A browser opens automatically.
+No commands, Node.js installation, MySQL service or internet connection are required.
+The included local server runs in the background. Closing the browser does not
+stop it. Use Lock before leaving the PC. After a Windows restart, double-click
+the icon again. Installation does not add automatic startup at Windows sign-in.
+The launcher selects an available local port and remembers it. It verifies that
+the running workspace belongs to this installation before opening the browser.
+
+The system installs for the current Windows user at:
+%LOCALAPPDATA%\Ceylon Pure Homecare
+
+Business data and backups are in its data subfolder. The Start menu includes
+a Data and backups shortcut. Do not delete or move the installation folder.
+Use the same Windows user account for daily operation.
+
+MOVING EXISTING RECORDS
+On the old PC, sign in, open Settings and download a database backup.
+Keep a separate copy. On the new PC, install, create a new PIN, and use
+Settings > Restore database. Review the record counts, type the factory name
+exactly and enter the new PC's current PIN. That PIN is retained.
+Check stock, orders, balances and product photos after restoring.
+Guided restoration currently accepts files up to 40 MB.
+
+Never distribute a live database inside an installation package. This package
+starts empty and includes no factory records or default PIN.
+
+BACKUPS
+Download and copy backups to a different drive regularly. Daily local copies
+do not protect against a failed or lost PC. Restoring an old backup replaces
+newer records, so review dates carefully.
+
+SUPPORT
+Do not bypass Windows or company security warnings. If scripts are blocked,
+ask the PC administrator to review and allow this package. The installer is
+not digitally signed and is not a Microsoft Store application.
+This package includes a Node.js runtime and its upstream license.
+Test the real invoice printer and recovery on the factory PC before live use.
